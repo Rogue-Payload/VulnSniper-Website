@@ -1,0 +1,342 @@
+/* General Styles */
+body {
+  font-family: 'Metal', sans-serif;
+  color: #000;
+}
+
+.container, .container-fluid {
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/VulnSniper_Wallpaper1.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  color: #00ffc3;
+  text-shadow: 0 0 10px #00ffc3, 0 0 20px #00ffc3, 0 0 30px #00ffc3;
+  animation: pulse-glow 2s infinite alternate;
+}
+
+.hero-section p.lead {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 40px;
+  font-family: 'Cinzel', sans-serif;
+}
+
+.glowing-btn, .glowing-outline-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.glowing-btn {
+  background-color: #0efefe;
+  color: #0d0d0d;
+  box-shadow: 0 0 15px #0efefe, 0 0 30px #0efefe;
+}
+
+.glowing-outline-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: 0 0 15px #fff, 0 0 30px #fff;
+}
+
+.glowing-btn:hover, .glowing-outline-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #0efefe, 0 0 60px #0efefe;
+}
+
+/* Countdown Timer */
+.countdown-bg {
+  background-color: #101010;
+  padding: 60px 0;
+}
+
+.countdown-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #0efefe;
+  text-shadow: 0 0 15px #0efefe;
+}
+
+.countdown-description {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.time-box {
+  display: inline-block;
+  text-align: center;
+}
+
+.time {
+  font-size: 4rem;
+  color: #00ffc3;
+  text-shadow: 0 0 15px #00ffc3, 0 0 30px #00ffc3;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.label {
+  font-size: 1rem;
+  color: #ccc;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', sans-serif;
+}
+
+/* Section Titles */
+.section-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #00ffc3;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-shadow: 0 0 15px #00ffc3, 0 0 30px #00ffc3;
+}
+
+/* Why VulnSniper Section */
+#why-vulnsniper p.lead, #future-now p.lead {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+#why-vulnsniper .follow {
+  font-family: 'Cinzel', sans-serif;
+  font-size: .9rem;
+  color: #C0C0C0;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+/* How It Works Section */
+#how-it-works {
+  background-color: #101010;
+  padding: 80px 0;
+}
+
+.icon-box {
+  margin-bottom: 40px;
+}
+
+.glowing-icon {
+  color: #0efefe;
+  animation: pulse-glow 2s infinite alternate;
+}
+
+.phase-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.75rem;
+  color: #00ffc3;
+  margin-top: 20px;
+}
+
+.phase-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#future-now .follow {
+  font-family: 'Cinzel', sans-serif;
+  font-size: .9rem;
+  color: #C0C0C0;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+/* Video Section */
+.demo-section {
+  background-color: #0d0d0d;
+  padding: 80px 0;
+}
+
+.glowing-video-wrapper {
+  max-width: 800px;
+  height: 450px;
+  margin: 40px auto;
+  position: relative;
+  box-shadow: 0 0 15px #0efefe, 0 0 30px #0efefe;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.glowing-video-wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px #00ffc3, 0 0 60px #00ffc3;
+}
+
+.demo-section .lead {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 1.2rem;
+  color: #C0C0C0;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+/* Contact Form */
+.contact-form input, .contact-form textarea {
+  background-color: #222;
+  border: 2px solid #444;
+  color: #0efefe;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #00ffc3;
+  color: #0d0d0d;
+  padding: 10px 30px;
+  border: none;
+  box-shadow: 0 0 10px #00ffc3, 0 0 20px #00ffc3;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #00d8a1;
+  box-shadow: 0 0 20px #00ffc3, 0 0 40px #00ffc3;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  from {
+      text-shadow: 0 0 10px #00ffc3, 0 0 20px #00ffc3, 0 0 30px #00ffc3;
+      color: #00ffc3;
+  }
+  to {
+      text-shadow: 0 0 30px #00ffc3, 0 0 60px #00ffc3, 0 0 90px #00ffc3;
+      color: #00d8a1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h1 {
+      font-size: 3rem;
+  }
+
+  .hero-section p.lead {
+      font-size: 1.2rem;
+  }
+
+  .section-title {
+      font-size: 2rem;
+  }
+
+  .time {
+      font-size: 2.5rem;
+  }
+
+  .countdown-timer {
+      flex-direction: column;
+  }
+}
+
+/* Pricing Card Styling */
+.pricing-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  margin: 20px 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing_description {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 1.2rem;
+  color: #C0C0C0;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
+}
+
+/* Glowing Borders */
+.glowing-border {
+  border: 2px solid rgba(0, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+/* Glowing Text */
+.text-glow {
+  color: #00ffc3;
+  text-shadow: 0 0 10px #00ffc3, 0 0 20px #00ffc3;
+}
+
+/* Glowing Button */
+.glowing-btn {
+  background-color: #0efefe;
+  color: #0d0d0d;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 0 0 15px #0efefe, 0 0 30px #0efefe;
+  transition: all 0.3s ease;
+}
+
+.glowing-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #0efefe, 0 0 60px #0efefe;
+}
+
+/* Section Title */
+.section-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #00ffc3;
+  text-shadow: 0 0 15px #00ffc3, 0 0 30px #00ffc3;
+}
+
+.card-price {
+  font-family: 'Black Ops One', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  color: #FFF;
+  text-shadow: 0 0 15px #00C3FF, 0 0 30px #00C3FF;
+}
+
+.list-unstyled {
+  font-family: 'Cinzel', sans-serif; 
+  color: #C0C0C0;
+  font-size: 1rem;
+}

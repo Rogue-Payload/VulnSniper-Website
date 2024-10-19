@@ -1,0 +1,53 @@
+# Allow all search engines
+User-agent: *
+Disallow: /private-folder/
+Disallow: /php/
+Disallow: /fonts/
+Disallow: /VulnSniper_ProtoType_Video.mp4
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /About_VulnSniper/
+Allow: /Statements_Policies/
+Allow: /index.php
+
+# Block specific bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SEMrushBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+# Allow Googlebot specifically
+User-agent: Googlebot
+Disallow: /private-folder/
+Disallow: /php/
+Allow: /
+
+# Allow Bingbot specifically
+User-agent: Bingbot
+Disallow: /private-folder/
+Disallow: /php/
+Allow: /
+
+# Block web crawlers known for scraping
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location (if applicable)
+Sitemap: https://vulnsniper.tech/sitemap.xml

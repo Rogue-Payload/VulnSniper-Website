@@ -1,0 +1,243 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Section Titles */
+.section-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.8rem;
+    color: #00ffea;
+    text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+    margin-bottom: 20px;
+    animation: glowPulse 2s infinite alternate ease-in-out;
+}
+
+/* Text Glow for Subheadings and Important Content */
+.text-glow {
+    color: #0efefe;
+    text-shadow: 0 0 15px #0efefe, 0 0 25px #0efefe;
+}
+
+#future-now .lead {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1.4rem;
+    color: #C0C0C0;
+    text-align: center;
+}
+
+#future-now .follow {
+    font-family: 'Oxanium', sans-serif;
+    font-size: .8rem;
+    color: #FFF;
+    text-align: center;
+}
+
+#evolving .lead {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1.4rem;
+    color: #FFF;
+    text-align: center;
+}
+
+#evolving .follow { 
+    font-family: 'Oxanium', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+#evolving .listing {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.text-glow:hover {
+    color: #00ffea;
+    text-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea;
+}
+
+/* Glowing Button */
+.glowing-btn {
+    background-color: #0efefe;
+    color: #0d0d0d;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px #0efefe, 0 0 30px #0efefe;
+    transition: all 0.3s ease;
+}
+
+.glowing-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #0efefe, 0 0 45px #0efefe;
+    color: #fff;
+}
+
+/* Container for Spacing */
+.container {
+    padding: 60px 15px;
+}
+
+/* Background and Color Settings for Different Sections */
+.bg-dark {
+    background-color: #1a1a1a;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-light {
+    color: #cfcfcf;
+}
+
+/* Sci-Fi Glow Effect for Titles */
+@keyframes glowPulse {
+    0% {
+        text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 30px #00ffea;
+    }
+    100% {
+        text-shadow: 0 0 15px #0efefe, 0 0 40px #0efefe, 0 0 50px #0efefe;
+    }
+}
+
+/* Icon Box Styling (e.g., for CPU, RAM, etc.) */
+.icon-box {
+    margin-bottom: 20px;
+}
+
+.icon-box i {
+    font-size: 3rem;
+    color: #00ffea;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.icon-box h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.icon-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.icon-box i:hover {
+    transform: scale(1.2);
+}
+
+/* Pricing Tables - Highlight Glow Border */
+.pricing-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+}
+
+/* Hover Effects for Buttons */
+.glowing-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #007bff, 0 0 60px #007bff;
+}
+
+/* Table or Block Item List Styling (For CVE Vulnerabilities) */
+ul.list-unstyled {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: 'Cinzel', sans-serif;
+}
+
+ul.list-unstyled li {
+    font-family: 'Oxanium', sans-serif;
+    color: #b0f8f8;
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+/* CPU, RAM, GPU Section Styling */
+.cpu-ram-gpu-section {
+    margin-top: 40px;
+}
+
+.cpu-ram-gpu-section h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    color: #00ffea;
+    text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+}
+
+.cpu-ram-gpu-section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* Animated Glow Border for Important Sections */
+.glowing-border {
+    border: 2px solid rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3), 0 0 30px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.glowing-border:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7), 0 0 50px rgba(0, 255, 255, 0.7);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #111;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* Responsive Design for Small Devices */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .icon-box i {
+        font-size: 2.5rem;
+    }
+
+    .glowing-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .cpu-ram-gpu-section h4 {
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://vulnsniper.tech/index.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About VulnSniper Pages -->
+  <url>
+    <loc>https://vulnsniper.tech/About_VulnSniper/what_does_it_do.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/About_VulnSniper/artificial_intelligence.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/About_VulnSniper/machine_learning.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/About_VulnSniper/hacking_tactics.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Statements & Policies Pages -->
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/acceptable_use_policy.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/beta_testing_agreement.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/code_of_conduct.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/cookie_policy.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/gdpr_ccpa.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/improper_usage_policy.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/liability_disclaimer.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/privacy_policy.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/refund_policy.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/security_policy.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/support_policy.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/terms_conditions.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/Statements_Policies/user_license_agreement.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Enterprise Page -->
+  <url>
+    <loc>https://vulnsniper.tech/enterprise.php</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Images and Other Resources -->
+  <url>
+    <loc>https://vulnsniper.tech/img/1year.jpg</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/img/2year.jpg</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/img/VulnSniper_Wallpaper1.jpg</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://vulnsniper.tech/img/hacker_city.jpg</loc>
+    <lastmod>2024-10-28</lastmod>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
