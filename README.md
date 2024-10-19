@@ -10,7 +10,7 @@
 
 > The world's first 4-phase AI & ML enhanced automated hacking script.
 
-![screenshot](img/hacker_city.jpg)
+![screenshot](https://cdn.discordapp.com/attachments/1291947133833838665/1291949911541284928/Screenshot_from_2024-09-30_00-54-26.png?ex=6715135e&is=6713c1de&hm=2678f47a22ec00712570bfe28cef6f672c9acfb5a9765b253c00eb4b5347f3d1&)
 
 ## Features
 
